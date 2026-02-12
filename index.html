@@ -139,30 +139,58 @@
         </div>
     </section>
 
-    <section id="contact" class="py-20 bg-white text-center border-t">
-        <h3 class="text-2xl font-bold mb-10 text-teal-900 uppercase tracking-widest">Connect With Us</h3>
-        <div class="flex justify-center space-x-12">
-            <a href="https://www.facebook.com/profile.php?id=61558082182985" target="_blank" class="hover:scale-110 transition text-blue-800"><i class="fab fa-facebook text-4xl"></i></a>
-            <a href="https://www.tiktok.com/@thistle.lanka" target="_blank" class="hover:scale-110 transition text-black"><i class="fab fa-tiktok text-4xl"></i></a>
-            <a href="https://www.instagram.com/thistle_lanka/" target="_blank" class="hover:scale-110 transition text-pink-700"><i class="fab fa-instagram text-4xl"></i></a>
+<section id="contact" class="py-24 bg-white px-6 border-t">
+    <div class="max-w-4xl mx-auto">
+        <div class="text-center mb-16">
+            <h3 class="text-3xl font-bold text-teal-900 uppercase tracking-widest">Get In Touch</h3>
         </div>
-        <form action="https://formspree.io/f/mqedpzaz" method="POST" class="space-y-4">
-    <div>
-        <label class="block text-[10px] font-bold uppercase text-gray-400 mb-1">Full Name</label>
-        <input type="text" name="name" required class="w-full border-b border-gray-300 py-2 focus:border-teal-800 outline-none transition bg-transparent">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+            <div class="space-y-8 text-left">
+                <div class="flex items-start gap-4">
+                    <div class="text-teal-800 mt-1"><i class="fas fa-map-marker-alt text-xl"></i></div>
+                    <div>
+                        <h4 class="font-bold text-gray-800 uppercase text-[10px] tracking-widest mb-1">Our Studio</h4>
+                        <p class="text-gray-600 leading-relaxed text-sm">90/A/67, 10th Lane,<br>Mahabodhi Road,<br>Kadawatha, Sri Lanka</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4">
+                    <div class="text-teal-800 mt-1"><i class="fas fa-envelope text-xl"></i></div>
+                    <div>
+                        <h4 class="font-bold text-gray-800 uppercase text-[10px] tracking-widest mb-1">Email Us</h4>
+                        <p class="text-gray-600 text-sm italic"><a href="mailto:thistlelanka@gmail.com" class="hover:text-teal-800 transition">thistlelanka@gmail.com</a></p>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold text-gray-800 uppercase text-[10px] tracking-widest mb-4">Social Community</h4>
+                    <div class="flex space-x-6 text-2xl text-teal-800">
+                        <a href="https://www.facebook.com/profile.php?id=61558082182985" target="_blank" class="hover:text-teal-600"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.tiktok.com/@thistle.lanka" target="_blank" class="hover:text-black"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/thistle_lanka/" target="_blank" class="hover:text-pink-700"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <form action="https://formspree.io/f/mqedpzaz" method="POST" class="space-y-4">
+                <div>
+                    <label class="block text-[10px] font-bold uppercase text-gray-400 mb-1">Full Name</label>
+                    <input type="text" name="name" required class="w-full border-b border-gray-300 py-2 focus:border-teal-800 outline-none transition bg-transparent">
+                </div>
+                <div>
+                    <label class="block text-[10px] font-bold uppercase text-gray-400 mb-1">Email Address</label>
+                    <input type="email" name="_replyto" required class="w-full border-b border-gray-300 py-2 focus:border-teal-800 outline-none transition bg-transparent">
+                </div>
+                <div>
+                    <label class="block text-[10px] font-bold uppercase text-gray-400 mb-1">Message</label>
+                    <textarea name="message" rows="4" required class="w-full border-b border-gray-300 py-2 focus:border-teal-800 outline-none transition bg-transparent"></textarea>
+                </div>
+                <button type="submit" class="bg-teal-900 text-white px-8 py-3 rounded-full hover:bg-teal-700 transition uppercase text-xs font-bold tracking-widest shadow-lg mt-4">
+                    Send Message
+                </button>
+            </form>
+        </div>
     </div>
-    <div>
-        <label class="block text-[10px] font-bold uppercase text-gray-400 mb-1">Email Address</label>
-        <input type="email" name="_replyto" required class="w-full border-b border-gray-300 py-2 focus:border-teal-800 outline-none transition bg-transparent">
-    </div>
-    <div>
-        <label class="block text-[10px] font-bold uppercase text-gray-400 mb-1">Message</label>
-        <textarea name="message" rows="4" required class="w-full border-b border-gray-300 py-2 focus:border-teal-800 outline-none transition bg-transparent"></textarea>
-    </div>
-    <button type="submit" class="bg-teal-900 text-white px-8 py-3 rounded-full hover:bg-teal-700 transition uppercase text-xs font-bold tracking-widest shadow-lg">
-        Send Message
-    </button>
-</form>
+</section>
     </section>
 
     <footer class="py-10 text-center text-gray-400 text-[10px] border-t bg-white uppercase tracking-[0.2em]">
